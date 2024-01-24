@@ -36,7 +36,7 @@ paths:
             application/vnd.collection+json: { }
   '/session/{id}':
     get:
-      summary: GetSession
+      summary: GetSessionById
       description: Retreive a representation of a single session by Id
       operationId: GetSession
       parameters:
